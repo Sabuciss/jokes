@@ -33,7 +33,7 @@ function App() {
         }}
       >
           {jokes.map((joke) => (
-            <Joke key={joke.id} joke={joke} /> 
+            <Joke key={joke.id} {...joke}/> 
           ))}
         </div>
       )}

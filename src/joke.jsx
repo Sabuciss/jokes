@@ -3,7 +3,7 @@ import './joke.css';
 
 
 
-function Joke({ joke }) {
+function Joke(joke) {
   return (
     <div className="card">
       <div className="card-content">
